@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- eSTARTUP -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About us Senior Helpers Indianapolis, IN</title>
+  <meta name="description" content="About our home care agency">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Include Handlebars from a CDN -->
+  <script src="assets/js/handlebars.js"></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+
+<!-- <body class="service-details-page"> -->
+<body class="service-details-page">
+  <div id="main-content">
+    <!-- Header Section -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h2 class="sitename">{{pagetitle}}</h2> 
+        </a>
+        <nav id="navmenu" class="navmenu">
+            {{{headerContent}}}
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header><!-- /Header Section -->
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>About {{businessname}} in {{city}}, {{state}}</h1>
+              <!-- <p class="mb-0">Private home care aides and services nearby {{city}} and surrounding areas.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">about {{businessname}} home care agency in {{city}}, {{state}}</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- <div class="service-box">
+              <h4>Serices List</h4>
+              <div class="services-list">
+                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+              </div>
+            </div> --><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Catalog</h4>
+              <div class="download-catalog">
+                <a href="#" rel="nofollow"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+                <a href="#" rel="nofollow"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              
+              <i class="bi bi-headset help-icon"></i>
+              <h4>{{businessname}}</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{street}} {{city}}, {{state}} {{zip}}</span></p>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{gmbphone}}</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:{{publicemail}}">{{publicemail}}</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <!-- <img src="{{gmbimageurl}}" alt="" class="img-fluid services-img"> -->
+                <h2>Contact {{businessname}} in {{city}}, {{state}}</h2>
+                <p>{{businessname}} was founded by <a href="{{ownerwebsiteurl}}" target="_blank" rel="dofollow"> {{ownername}}</a> can provide valuable support, allowing seniors or those with disabilities to stay in the comfort of their own homes while receiving necessary assistance. Home care services can vary widely, from medical care and therapy to basic help with everyday tasks. One of the most significant components of home care revolves around supporting Activities of Daily Living (ADLs), which are essential for maintaining quality of life and independence.</p>
+                <h2>Find {{businessname}} in {{city}}, {{state}} on the web</h2>
+                <ul>
+                  <li><a href="{{gmbmapsurl}}">Google Maps</a></li>
+                  <li><a href="{{pinteresturl}}">Pinterest</a></li>
+                  <li><a href="{{facebookurl}}">Facebook</a></li>
+                  <li><a href="{{twitterurl}}">Twitter</a></li>
+                  <li><a href="{{linkedinurl}}">Linkedin</a></li>
+                  <li><a href="{{instagramurl}}">Instaram</a></li>
+                  <li><a href="{{yelpurl}}">Yelp</a></li>
+                  <li><a href="{{youtubeurl}}">Youtube</a></li>
+
+                  <li><a href="{{googlefolder}}">Google Folder</a></li>
+                  <li><a href="{{youtubeurl}}">Wiki</a></li>
+                  <li><a href="{{soundcloud}}">Soundcloud </a></li>
+                  <li><a href="{{spotify}}">spotify </a></li>
+                  <li><a href="https://www.tiktok.com/@seniorhelpersindiana ">TikTok</a></li>
+                  <li><a href="https://www.crunchbase.com/organization/senior-helpers-indianapolis ">Crunchbase</a></li>
+                  <li><a href="https://wakelet.com/wake/_07JRs1BF63lX-Fr2Uxkl">Wakelet</a></li>
+
+                  
+
+                  <li><a href="https://deezer.com/show/1001291731">deezer </a></li>
+                  <li><a href="https://www.podbean.com/podcast-detail/ncpbf-323092/Senior-Helpers-Indianapolis-Podcast">podbean </a></li>
+                  <li><a href="https://music.amazon.com/podcasts/d7dbf53f-ac39-4ca5-9105-c0e9165b77af/senior-helpers-indianapolis
+">amazon music </a></li>
+                  <li><a href="https://podcastaddict.com/podcast/senior-helpers-indianapolis/5413790">podcat addict </a></li>
+                  <li><a href="https://pca.st/2uxx5ygc">other </a></li>
+                  <li><a href="https://podcasters.spotify.com/pod/show/senior-helpers-indianapol">spotify </a></li>
+
+                  <li><a href="#">DIRECTORIES </a></li>
+                  <li><a href="https://www.agingcare.com/local/senior-helpers-indianapolis-in-indianapolis-in-home-care-in"></a></li>
+                  <li><a href="https://www.aplaceformom.com/community/senior-helpers-indianapolis-in-1439035">A place for mom</a></li>
+                  <li><a href="https://www.careinhomes.com/Indianapolis-IN/senior-helpers-of-indianapolis-in">Care in homes</a></li>
+                  <li><a href="https://patch.com/indiana/indianapolis/business/listing/490665/senior-helpers-indianapolis">Patch</a></li>
+                  <li><a href="https://www.seniorlivingguide.com/services/senior-helpers-indianapolis-6845-parkdale-place-suite-c-indianapolis-in-46254/">Senior Living Guide</a></li>
+                  <li><a href="https://www.bbb.org/us/in/indianapolis/profile/home-health-care/senior-helpers-0382-90018448">Better Business Bureau</a></li>
+                  <li><a href="https://www.seniorveterans.care/indianapolis/care-providers/senior-helpers-indianapolis">Senior Veterans</a></li>
+                  <li><a href="https://www.seniorhousingnet.com/seniorliving-detail/senior-helpers--indianapolis-in_6825-parkdale-pl-ste-c_indianapolis_in_46254-640713">Senior Housing Net</a></li>
+                  <li><a href="https://reviews.listen360.com/senior-helpers-of-indianapolis">Listen 360 Reviews</a></li>
+                  <li><a href="https://www.chamberofcommerce.com/united-states/indiana/indianapolis/home-health-care-service/2007127309-senior-helpers">Chamber of Commerce</a></li>
+                  <li><a href="https://www.carepathways.com/in/home-health-care-indianapolis/services.cfm?cid=185021414#google_vignette">Carepathways</a></li>
+                  <li><a href="https://business.zionsvillechamber.org/directory/Details/senior-helpers-1863347">Zionsville Chamber</a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+
+                
+                <p>{{aboutus}}</p>
+
+                
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  {{{footerContent}}}
+</div>
+  <!-- Scroll Top -->
+  <a href="#" rel="nofollow" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

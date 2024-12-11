@@ -1,0 +1,122 @@
+Searching 631 files for "<a href="respite-care.html""
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_do/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_do/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_aws/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_aws/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_azure/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_azure/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/bunny_to_aws/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_az/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/cloudflare_to_az/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_aws/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_aws/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/bunny_to_azure/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/bunny_to_azure/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_digitalocean/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/linode_to_digitalocean/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/bunny_to_digitalocean/index.html:
+  154                    <i class="bi bi-broadcast"></i>
+  155                  </div>
+  156:                 <a href="respite-care.html" class="stretched-link">
+  157                    <h3>Respite Home Care</h3>
+  158                  </a>
+
+~/Desktop/github/HCB-SurgeTemplates/tier2/bunny_to_digitalocean/assets/js/data.js:
+  108      //             <li><a href="alzheimers-and-dementia-care.html">Alzheimers and Dementia Care</a></li>
+  109      //             <li><a href="private-home-care-aide.html">Private Home Care Aide</a></li>
+  110:     //             <li><a href="respite-care.html">Respite Care</a></li>
+  111      //         </ul>
+  112      //     </li>
+
+17 matches across 17 files

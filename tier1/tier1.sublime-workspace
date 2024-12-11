@@ -1,0 +1,393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"li"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home-care.html",
+			"settings":
+			{
+				"buffer_size": 14282,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					26,
+					1,
+					"",
+					null,
+					"AQAAAO4UAAAAAAAA/RQAAAAAAAAXAAAAYXNzZXRzL2ltZy9zZXJ2aWNlcy5qcGc",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAO4UAAAAAAAABRUAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 22410,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"File: Save All"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/Product-SEO/Surge/Cloud Site Templates/template/tier1"
+	],
+	"file_history":
+	[
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/Product-SEO/Surge/Cloud Site Templates/template/tier1/contactus.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/assets/js/data-backup.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/hospice-care-at-home.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/alzheimers-and-dementia-care.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/private-home-care-aide.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/respite-care.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/24-hour-home-care.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/caregivers-for-seniors.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/starter-page.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/assets/js/data.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/contactus.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/home-care.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/index.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1/tier1.sublime-project",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/index.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/assets/js/app.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/home-care.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/assets/js/data.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/assets/js/data-backup.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/assets/js/main.js",
+		"/Users/davidkraljic/Desktop/Surge Schema/scrap.json",
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/-Clients/Senior Helpers Indianapolis/Surges/Brand/Cloud Site Tier 1/assets/js/data.js",
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/-Clients/Senior Helpers Indianapolis/Surges/Brand/Cloud Site Tier 1/index.html",
+		"/Users/davidkraljic/Desktop/Schema/scrap.json",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/eStartup/assets/js/handlebars.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/OnePage/index.html",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/OnePage/assets/js/app.js",
+		"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/OnePage/assets/js/data.js",
+		"/Users/davidkraljic/Desktop/Schema/Schema",
+		"/Users/davidkraljic/Desktop/OnePage/OnePage/assets/js/handlebars.js",
+		"/Users/davidkraljic/Desktop/OnePage/OnePage/index.html",
+		"/Users/davidkraljic/Desktop/test/dummy2/index.html",
+		"/Users/davidkraljic/Desktop/test/dummy/mustache-demos.js",
+		"/Users/davidkraljic/Desktop/test/dummy/style.css",
+		"/Users/davidkraljic/Desktop/test/dummy/demo.html",
+		"/Users/davidkraljic/Desktop/test/dummy/index.html",
+		"/Users/davidkraljic/Desktop/test/OnePage/index.html",
+		"/Users/davidkraljic/Desktop/8075193-942861f54858c62289ea2eb2e297b8078050523e/index.html",
+		"/Users/davidkraljic/Desktop/mustache.github.com-master 2/_config.yml",
+		"/Users/davidkraljic/Desktop/mustache.github.com-master 2/README.md",
+		"/Users/davidkraljic/Desktop/mustache.github.com-master 2/LICENSE.md",
+		"/Users/davidkraljic/Desktop/untitled.html",
+		"/Users/davidkraljic/Desktop/pico-release-v2.1.4/content/index.md",
+		"/Users/davidkraljic/Desktop/Test 1  Test 2024-10-24T190718.eml",
+		"/Users/davidkraljic/Desktop/TEST - NEW from Rare Endocrinology News-2.eml",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty validated notesinside retool/schema-brand-rss-notesinside-clara-v1.json",
+		"/Applications/Utilities/Adobe Creative Cloud/Components/OneUp/resources/bundle/cjs/schema/AnnotationValidator.js",
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Niche Sites/BeerCooler/Code/undecounterbeercooler.esproj/Project.espressostorage",
+		"/Users/davidkraljic/Desktop/Surge Dawn/Surge Schema/pretty validated notesinside retool/schema-brand-rss-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Brevo HTML.html",
+		"/Users/davidkraljic/Desktop/RMN RareIq/surveyjs-tools/survey-tools.php",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-homecare-towntarget-image-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-private-towntarget-video-clara json.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-alzhiemers-towntarget-video-clarajson.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-hospice-towntarget-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-caregivers-towntarget-video-clara.json",
+		"/Users/davidkraljic/Desktop/24 hour/schema-24hour-towntarget-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-private-youtubedescscript.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-alzhimers-youtubedescscript.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-hospice-youtubedescscript.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-caregivers-youtubedescscript.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-24hour-youtubedescscript.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-homecare-towntarget-rss-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-brand-rss-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-brand-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-homecare-towntarget-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-homecare-rss-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-homecare-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-town1-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/schema-homecare-town1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/schema-brand-image-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge/Surge Schema/pretty validated notesinside retool/text-brand-youtubedescscript.json",
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/-Marketing and Sales/Lead Gen/Outscraper/1-Exported from Outscraper/Merged-01/combined.csv",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty validated notesinside retool/schema-brand-targetpage-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty validated notesinside retool/schema-brand-googlesite-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-GMBTown-googlesite-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-Town1-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-GMBTown-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-image-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-24hour-googlesite-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/24 Hour Home Care/schema-brand-googlesite-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-town1-googlesite-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-town1-video-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-town1-image-notesinside-clara-v1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/scrap.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-brand-googlesite-notes-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-video-brand-clara.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes wpgetapi/schema-video-brand-wordpress.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/schema-googlesite-dirty",
+		"/Users/davidkraljic/Desktop/Clara",
+		"/Users/davidkraljic/Desktop/BrandVideoSchema.html",
+		"/Users/davidkraljic/Desktop/Surge Schema/schema-24hourcare.town1.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/pretty valdiated nonotes retool/schema-video-brand.json",
+		"/Users/davidkraljic/Desktop/Surge Schema/schema-brand.json",
+		"/Users/davidkraljic/Desktop/1-Exported from Outscraper/combined-cleaned.csv",
+		"/Users/davidkraljic/Desktop/Rare IQ/surveyjson-v1.json",
+		"/Users/davidkraljic/Desktop/Novartis MI/gene-therapies/functions.php",
+		"/Users/davidkraljic/Library/CloudStorage/GoogleDrive-dave@goodlab.co/My Drive/Home Care Boost/Product-SEO/Surge/Surge Laurence/RSSfeed-audio-video-schema.json",
+		"/Users/davidkraljic/Desktop/dave-v1.json",
+		"/Users/davidkraljic/Desktop/schema-homecare-town1.json",
+		"/Users/davidkraljic/Desktop/schema-hospice-town1.json"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1",
+			"current,/Users/davidkraljic/Desktop/github/HCB-SurgeTemplates/tier1",
+			"current",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"assets/img/services.jpg",
+			"img",
+			"image",
+			"ima",
+			"wiki",
+			"href",
+			"who we are",
+			"privay",
+			"services",
+			"24",
+			"24 Hour"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{{gmbimageurl}}",
+			"Respite"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home-care.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5746,
+								5746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 22410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tier1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 305.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 576.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- eSTARTUP -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Senior Helpers Indianapolis</title>
+  <meta name="description" content="Senir Helpers Indianapolis home care agency">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Include Handlebars from a CDN -->
+  <script src="assets/js/handlebars.js"></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+
+<body class="index-page">
+  <div id="main-content">
+    <!-- Header Section -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h2 class="sitename">{{pagetitle}}</h2> 
+        </a>
+        <nav id="navmenu" class="navmenu">
+            {{{headerContent}}}
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header><!-- /Header Section -->
+
+    <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section light-background" style="padding-bottom: 90px">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-5">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+              <a href="{{targeturl}}">
+                <h1>{{businessname}}</h1>
+              </a>
+              <p>{{descriptionshort}}</p>
+              <div class="d-flex">
+                <a href="{{targeturl}}" class="btn-get-started">Get Started</a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2" style="background-color: #ccc">
+              <img src="{{gmbimageurl}}"  class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </section><!-- /Hero Section -->
+
+      <!-- Article Section -->
+      <section id="article" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
+              <p class="who-we-are">Who We Are</p>
+              <h2>{{pagetitle}}</h2>
+              <h2 >{{street}} {{city}} {{zip}} <br> {{gmbphone}}</h2>
+
+              <p class="">
+                {{aboutus}}
+  
+  
+              </p>
+            </div>
+          </div>
+        </div>
+      </section><!-- /About Section -->
+
+      <!-- Youtube Section -->
+      <section id="youtube" class="about-alt section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/{{youtubevideoid}}?si=l9NgmYZh0LpSIkB6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <!-- <img src="assets/img/about.jpg" class="img-fluid" alt=""> -->
+              <a href="{{youtubeurl}}" rel="nofollow" class="glightbox pulsating-play-btn"></a>
+            </div>
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+              <h3>Watch our Youtube video</h3>
+              <p class="fst-italic">
+                Here you can learn about us and see how our home care servies provide exceptional, warm and professional care for your family members. You can also vist our Youtube channel.
+              </p>
+              <ul>
+                <a href="{{youtubeurl}}" rel="nofollow"><li>View the YOUTUBE VIDEO HERE</li></a>
+                <a href="{{youtubechannelurl}}" rel="nofollow"><li>View the YOUTUBE CHANNEL HERE</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section><!-- /About Alt Section -->
+
+      <!-- Youtube Alt Section -->
+      <section id="about-alt" class="about-alt section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/kNyqENLleNY?si=XcbVN9BR9-MqCKCZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gq3MmM3LeNA?si=0xcRoeI4HqJwTWrr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>            
+          </div>
+        </div>
+      </section><!-- /About Alt Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Home Care Services</h2>
+          <div>Home Care Services</div>
+        </div><!-- End Section Title -->
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item  position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Home Care</h3>
+                </a>
+                <p>Home care services designed to support seniors with activities of daily living (ADSLs) as well as household support.</p>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Respite Home Care</h3>
+                </a>
+                <p>When continous support is needed we can be there Respites a day. Lear the difference between Respite or Live-in home care. </p>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Caregivers for Seniors</h3>
+                </a>
+                <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Hospice care at home</h3>
+                </a>
+                <p>Making life-at-home comfortable for seniors in the most difficult circumstances is our passion. </p>
+                <a href="hospice-care-at-home.html" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Alzheimers and Dementia Care at home</h3>
+                </a>
+                <p>Specialied programs for Alzheimer's. We train our care givers with specific techniques in memory care.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Private Home Care Aides</h3>
+                </a>
+                <p>We can place private home care aides as quickly as same day. Learn more about our home care aides.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+          </div>
+        </div>
+      </section><!-- /Services Section -->
+
+      <!-- Faq Section -->
+      <section id="faq" class="faq section light-background">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="content px-xl-5">
+                <h3><span>Frequently Asked</span><strong> Questions</strong></h3>
+              </div>
+            </div>
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3><span class="num">1.</span> <span>Who is the owner of {{businessname}}?</span></h3>
+                  <div class="faq-content">
+                    <p>{{businessname}} was founded by {{ownername}}</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+                <div class="faq-item">
+                  <h3><span class="num">2.</span> <span>Where is {{businessname}} located</span></h3>
+                  <div class="faq-content">
+                    <p>{{business}} is located at {{adress}} {{city}}, {{state}} {{zip}}</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+                <div class="faq-item">
+                  <h3><span class="num">3.</span> <span>Does {{businessname}} have good reviews?</span></h3>
+                  <div class="faq-content">
+                    <p>Absolutely, you can. see our reviews here <a rel="nofollow" href="{{gmburl}}"></a></p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /Faq Section -->
+
+      <!-- Article Section -->
+      <section id="article" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
+              <p class="who-we-are">{{businessname}}</p>
+              <h2>{{pagetitle}}</h3>
+              <p class="">
+                 <h2>Senior Helpers Indianapolis: Enhancing the Quality of Life for Seniors</h1>
+                <p>As seniors age, they often face a range of physical, mental, and emotional challenges that require additional support. For families in Indianapolis, finding a reliable, compassionate, and effective caregiving service can make a world of difference. Senior Helpers Indianapolis is one of the top home care agencies in the area, specializing in providing customized care solutions that allow seniors to age with dignity in the comfort of their own homes.</p>
+
+                <h2>Who Are Senior Helpers?</h2>
+                <p>Founded in 2002, Senior Helpers is a nationwide organization with a network of independently owned franchises across the United States. Senior Helpers Indianapolis has established itself as a trusted partner in senior care, offering services that span from companionship and personal care to specialized dementia and Alzheimer's care.</p>
+
+                <h2>Services Offered by Senior Helpers Indianapolis</h2>
+                <p>Senior Helpers Indianapolis offers a wide range of services tailored to meet the unique needs of each client. Here are some of the main services they provide:</p>
+
+                <h3>1. Companionship and Personal Care</h3>
+                <p>Social interaction and assistance with daily tasks are crucial to seniors' well-being. Senior Helpers caregivers can provide companionship, engage in activities, assist with light housekeeping, meal preparation, and offer support with grooming, dressing, and bathing.</p>
+
+                <h3>2. Alzheimer’s and Dementia Care</h3>
+                <p>Senior Helpers has a specialized program called <em>Senior Gems®</em>, designed to create a comfortable, engaging environment for those with memory care needs. Caregivers are trained to understand and support the various stages of dementia and Alzheimer’s, helping seniors maintain independence and dignity.</p>
+
+                <h3>3. Parkinson’s Care</h3>
+                <p>Senior Helpers Indianapolis has an exclusive partnership with the Parkinson’s Foundation, allowing their caregivers to have specific training for assisting clients with Parkinson's disease. This specialized care includes helping with mobility, medication reminders, and creating a safe home environment.</p>
+
+                <h3>4. Transitional Care</h3>
+                <p>The transition from a hospital stay to home can be challenging for seniors. Senior Helpers Indianapolis offers services that ease this transition, ensuring seniors are comfortable, supported, and following the necessary care plan to prevent re-hospitalization.</p>
+
+                <h3>5. Respite Care for Family Caregivers</h3>
+                <p>Family caregivers provide invaluable support but may need breaks to rest and recharge. Senior Helpers offers flexible respite care options, allowing family members to take time for themselves while their loved ones remain in good hands.</p>
+
+                <h3>6. End-of-Life Care</h3>
+                <p>Senior Helpers provides compassionate support for those in the end stages of life, working closely with hospice agencies and other care providers to ensure that seniors have dignity and comfort in their final days.</p>
+
+                <h2>What Sets Senior Helpers Indianapolis Apart?</h2>
+
+                <h3>Trained and Certified Caregivers</h3>
+                <p>Senior Helpers Indianapolis prides itself on having caregivers who are not only compassionate but also well-trained. The staff undergoes rigorous training, especially for dementia and Alzheimer's care, ensuring they can handle even the most complex needs.</p>
+
+                <h3>Customized Care Plans</h3>
+                <p>Every senior has unique needs, and Senior Helpers takes a personalized approach to care. The care team collaborates with family members to create a plan that accommodates the senior's lifestyle, preferences, and health requirements.</p>
+
+                <h3>Peace of Mind for Families</h3>
+                <p>With the support of Senior Helpers, family members can rest easy knowing that their loved ones are receiving high-quality, compassionate care. Regular updates and open communication are key, allowing families to stay involved and informed about their loved one’s care.</p>
+
+                <h3>Commitment to Independence and Dignity</h3>
+                <p>Senior Helpers Indianapolis aims to enhance their clients' quality of life by promoting as much independence as possible. They strive to empower seniors, providing care that supports their ability to live safely and happily at home.</p>
+
+                <h2>Senior Helpers Indianapolis: A Valuable Community Partner</h2>
+                <p>Senior Helpers Indianapolis goes beyond just providing services; they actively participate in the local senior community. From hosting educational seminars to supporting local events, they’re dedicated to improving the lives of seniors in Indianapolis and creating a network of support.</p>
+
+                <h2>Is Senior Helpers Indianapolis Right for Your Family?</h2>
+                <p>When considering home care options, it’s essential to evaluate your family’s specific needs. Senior Helpers Indianapolis offers a free consultation, allowing families to explore how their services align with the requirements of their loved ones.</p>
+  
+  
+              </p>
+            </div>
+          </div>
+        </div>
+      </section><!-- /About Section -->
+
+      <!-- Map Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Find on Google maps</h2>
+          <div><span>Find us on</span> <span class="description-title">Google Maps</span></div>
+        </div><!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-12" data-aos="fade-up" data-aos-delay="200">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12256.60259930974!2d-86.2817526!3d39.8260399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca993d82f82cf%3A0xd112964f24b6ced6!2sSenior%20Helpers!5e0!3m2!1sen!2sau!4v1728629680957!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div>
+            <h2 class="container section-title" data-aos="fade-up">{{street}} {{city}} {{zip}} <br> {{gmbphone}}</h2>
+          </div>
+          <div>
+            <iframe width="900" height="1600" src="https://rss.app/embed/v1/wall/Up9Rub6TZZkh7d26" frameborder="0"></iframe>
+          </div>
+        </div>
+      </section>
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4">          
+            <h4>Find Us On Social Media</h4>
+            <div class="social-links d-flex mt-4">
+              <a href="{{twitter}}" rel="nofollow" >
+                  <i class="bi bi-twitter-x"></i></a>
+              <a href="{{facebook}}" rel="nofollow" >
+                  <i class="bi bi-facebook" rel="nofollow" ></i></a>
+              <a href="{{instagram}}" rel="nofollow" >
+                  <i class="bi bi-instagram" rel="nofollow" ></i></a>
+              <a href="{{linkedin}}">
+                <i class="bi bi-linkedin" rel="nofollow" ></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="{{gmblongurl}}" rel="nofollow">GMB</a></li>
+              <li><a href="{{wikidataurl}}" rel="nofollow">Wikidata</a></li>
+              <li><a href="{{crunchbasecompanyurl}}" rel="nofollow">Crunchbase</a></li>
+<!--               <li><a href="/terms.html" rel="nofollow">Terms of service</a></li>
+              <li><a href="/privacy.html" rel="nofollow">Privacy policy</a></li>
+ -->            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#" rel="nofollow">Home Care</a></li>
+              <li><a href="#" rel="nofollow">Senior Care</a></li>
+              <li><a href="#" rel="nofollow">Alzhimer's and Dementia Care Management</a></li>
+              <li><a href="#" rel="nofollow">Respite Home Care</a></li>
+              <li><a href="#" rel="nofollow">Live in Home Care</a></li>
+              <li><a href="#" rel="nofollow">Personal Home Care Aides</a></li>
+              <li><a href="#" rel="nofollow">Professional in home caregivers</a></li>
+              <li><a href="#" rel="nofollow">Respite Care</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    {{{footerContent}}}
+  </div>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

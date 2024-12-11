@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- eSTARTUP -->
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>24 Hour Home Care in Indianpolis, IN</title>
+  <meta name="description" content="24 hour and live-in Home Care services nearby and nearme">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Include Handlebars from a CDN -->
+  <script src="assets/js/handlebars.js"></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+
+<!-- <body class="service-details-page"> -->
+<body class="service-details-page">
+  <div id="main-content">
+    <!-- Header Section -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h2 class="sitename">{{pagetitle}}</h2> 
+        </a>
+        <nav id="navmenu" class="navmenu">
+            {{{headerContent}}}
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header><!-- /Header Section -->
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>24 hour Home Care services in {{city}}, {{state}}</h1>
+              <p class="mb-0">24 hour and live-in Home Care services nearby {{city}} and surrounding areas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">24 Hour Home Care Services in {{city}}, {{state}}</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- <div class="service-box">
+              <h4>Serices List</h4>
+              <div class="services-list">
+                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+              </div>
+            </div> --><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Catalog</h4>
+              <div class="download-catalog">
+                <a href="#" rel="nofollow"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+                <a href="#" rel="nofollow"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              
+              <i class="bi bi-headset help-icon"></i>
+              <h4>{{businessname}}</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{street}} {{city}}, {{state}} {{zip}}</span></p>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>{{gmbphone}}</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:{{publicemail}}">{{publicemail}}</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="{{gmbimageurl}}" alt="" class="img-fluid services-img">
+                <h2>24 Hour Home Care in {{city}}, {{state}}</h2>
+                <p>As people age, their ability to manage daily tasks independently may diminish. In many cases constant attention is required. In these cases, <a href="{{page24hour}}" target="_blank" rel="dofollow">24 hour home care in {{city}} </a>can provide valuable support, allowing seniors or those with disabilities to stay in the comfort of their own homes while receiving necessary assistance. Home care services can vary widely, from medical care and therapy to basic help with everyday tasks. One of the most significant components of home care revolves around supporting Activities of Daily Living (ADLs), which are essential for maintaining quality of life and independence.</p>
+                   <h2>Understanding 24-Hour and Live-In Home Care Services</h2>
+                  <p>When a loved one requires continuous support due to age, illness, or disability, families may consider 24-hour or live-in home care as an alternative to assisted living facilities. These home care services allow individuals to remain in familiar surroundings, with the benefit of full-time assistance. Both 24-hour and live-in care are tailored to the client’s needs, with an emphasis on supporting Activities of Daily Living (ADLs), which are essential for maintaining independence and quality of life.</p>
+
+                  <h2>What is 24-Hour Home Care?</h2>
+                  <p>24-hour home care involves a rotation of caregivers working in shifts to provide round-the-clock support. Typically, two or three caregivers alternate throughout the day, ensuring there is always someone available to assist the client. This type of care is ideal for individuals who require constant supervision or assistance, as caregivers are present and alert at all hours, even during the night.</p>
+
+                  <h2>What is Live-In Home Care?</h2>
+                  <p>Live-in home care, on the other hand, involves a single caregiver who resides with the client for a set period, usually working for 24 hours at a time before taking a break. This arrangement allows the caregiver to sleep for several hours overnight, though they are available if emergencies arise. Live-in care is suitable for clients who need frequent assistance but may not require constant, vigilant oversight.</p>
+
+                  <h2>The Role of ADLs in 24-Hour and Live-In Home Care</h2>
+                  <p>Activities of Daily Living (ADLs) are fundamental self-care tasks that are essential for independent living. These include basic functions such as bathing, dressing, eating, and toileting. For individuals receiving 24-hour or live-in care, assistance with ADLs often forms the core of their daily support.</p>
+
+                  <p>Caregivers in both 24-hour and live-in care situations help clients with ADLs, ensuring they are comfortable, safe, and able to maintain as much independence as possible. Home care providers typically assess the client’s ability to perform ADLs independently and tailor a care plan to address any areas where support is needed.</p>
+
+                  <h2>Types of ADL Support in 24-Hour and Live-In Home Care</h2>
+                  <p>The following are examples of how caregivers provide assistance with ADLs in both 24-hour and live-in home care settings:</p>
+
+                  <h3>1. Bathing and Hygiene</h3>
+                  <p>Maintaining personal hygiene is critical for physical and emotional well-being. Caregivers assist clients with bathing, grooming, and other hygiene tasks to help them feel clean and comfortable. For clients who need help getting in and out of the shower or tub, caregivers are trained to provide safe and respectful assistance.</p>
+
+                  <h3>2. Dressing and Grooming</h3>
+                  <p>Caregivers can assist clients with dressing and grooming, ensuring they are dressed appropriately and comfortably each day. This support extends to activities like hair brushing, shaving, and nail care, promoting a sense of confidence and dignity.</p>
+
+                  <h3>3. Mobility and Transfers</h3>
+                  <p>For clients with limited mobility, caregivers provide essential support with moving around the home and transferring between positions (e.g., from a bed to a wheelchair). This assistance helps prevent falls and reduces the risk of injury, particularly for clients who are prone to balance issues.</p>
+
+                  <h3>4. Toileting and Incontinence Care</h3>
+                  <p>For clients who require help with toileting, caregivers provide compassionate support, assisting with transfers to and from the bathroom, as well as continence care if necessary. This service ensures that clients maintain dignity and comfort throughout the day.</p>
+
+                  <h3>5. Meal Preparation and Feeding</h3>
+                  <p>Proper nutrition is essential, and caregivers play a key role in preparing nutritious meals for clients. They may also assist with feeding for those who have difficulty eating independently. By offering support during mealtime, caregivers ensure that clients maintain a balanced diet, which is vital for overall health.</p>
+
+                  <h2>Instrumental ADLs (IADLs) in 24-Hour and Live-In Home Care</h2>
+                  <p>In addition to basic ADLs, Instrumental Activities of Daily Living (IADLs) are essential tasks that allow clients to function independently at home. These tasks include managing medications, grocery shopping, and housekeeping. In both 24-hour and live-in care settings, caregivers provide support for IADLs, enabling clients to continue living safely and comfortably in their own homes.</p>
+
+                  <h3>1. Medication Management</h3>
+                  <p>Caregivers assist with medication management, ensuring clients take their medications on time and in the correct dosage. For clients with complex medication schedules, this service is particularly valuable in preventing missed doses or incorrect administration.</p>
+
+                  <h3>2. Housekeeping and Home Maintenance</h3>
+                  <p>Keeping a clean and organized home is important for safety and comfort. Caregivers assist with light housekeeping tasks, such as laundry, vacuuming, and dishwashing, ensuring the living space remains tidy and free of hazards.</p>
+
+                  <h3>3. Transportation and Errands</h3>
+                  <p>For clients who need to attend medical appointments or run errands, caregivers provide transportation and escort services. This support allows clients to maintain their routines and access essential services, reducing isolation and encouraging social interaction.</p>
+
+                  <h3>4. Meal Planning and Grocery Shopping</h3>
+                  <p>In addition to meal preparation, caregivers can assist with meal planning and grocery shopping, ensuring clients have access to the food they enjoy and require for a healthy diet. This service not only supports nutritional needs but also helps clients maintain a sense of control over their dietary choices.</p>
+
+                  <h2>Benefits of 24-Hour and Live-In Home Care for ADLs and IADLs</h2>
+                  <p>24-hour and live-in home care services provide personalized support tailored to meet clients' unique needs. By assisting with ADLs and IADLs, caregivers help clients retain independence, reduce the risk of injury, and enhance their overall quality of life. This form of continuous care offers peace of mind for family members, knowing their loved ones are supported at all hours of the day.</p>
+
+                  <div>
+                    <iframe width="900" height="1600" src="https://rss.app/embed/v1/wall/Up9Rub6TZZkh7d26" frameborder="0"></iframe>
+                  </div>
+
+
+                
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  {{{footerContent}}}
+</div>
+  <!-- Scroll Top -->
+  <a href="#" rel="nofollow" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
