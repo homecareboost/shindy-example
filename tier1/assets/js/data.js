@@ -1,5 +1,5 @@
 const data = {
-    //CLIENT:SHINDY EXAMPLE
+    //CLIENT:JJ SHINDY EXAMPLE
     // MANUALLY INSERT SURGE INFO HERE
     // keyword: "KEYWORD. Senior Helpers Indianapolis Home Care",
     pagetitle: "JJJ XXX - INSERT BRAND + CITY + HOME CARE.", 
@@ -20,8 +20,6 @@ const data = {
     googlefolder: "XXX INSERT SURGE PUBLIC GOOGLE DRIVE FOLDER like https://drive.google.com/drive/folders/1byUcU6bhfjUZAQ7EHF88f4_0AtY3oLe6?usp=drive_link",
     spotify: "XXX INSERT SPOTIFY URL LIKE https://podcasters.spotify.com/pod/show/senior-helpers-indianapol",
     wiki: "XXX",
-
-  
     // AUTO INSERTED INFO FROM CLARA
     businessname: "Senior Helpers",
     fulladdress: "6845 Parkdale Place, Suite C Indianapolis, IN 46254",
