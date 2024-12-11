@@ -1,15 +1,15 @@
 const data = {
-    //CLIENT:JJ SHINDY EXAMPLE
+    //CLIENT:TEMPLATE
     // MANUALLY INSERT SURGE INFO HERE
     // keyword: "KEYWORD. Senior Helpers Indianapolis Home Care",
-    pagetitle: "JJJ XXX - INSERT BRAND + CITY + HOME CARE.", 
-    targeturl: "XXX INSERT SURGE TARGET URL",
-    metadescription: "XXX Just change the name in this description to client name> Senior Helpers is a home care agency comitted to providing aged care and home health care to the elderly living in the XXX CITY, ",
-    aboutus: "XXX INSERT CHAT GPT DESRIPTION HERE",
-    youtubeurl: "XXX INSERT SURGE YOUTUBE URL LIKE: https://www.youtube.com/watch?v=2w7OI6BGP7s",
-    youtubevideoid: "XXX INSERT SURGE VIDEO ID LIKE 2w7OI6BGP7s",
-    youtubechannelurl: "XXX INSERT SURGE CHANNEL URL LIKE: https://www.youtube.com/@SeniorHelpersIndianapolis",
-    youtubeembed: "XXX INSERT SURGE YOUTUBE EMBED LIKE <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2w7OI6BGP7s?si=l9NgmYZh0LpSIkB6\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    pagetitle: "Senior Helpers Indianapolis Home Care", 
+    targeturl: "https://sites.google.com/view/senior-helpers-indianapolis/home",
+    metadescription: "Just change the name in this description to client name> Senior Helpers is a home care agency comitted to providing aged care and home health care to the elderly living in the Indianapolis",
+    aboutus: "Senior Helpers Indianapolis is a trusted and compassionate home care agency dedicated to providing exceptional care and support to seniors and their families. Our mission is to enhance the quality of life for older adults by offering tailored care solutions that promote independence, dignity, and peace of mind. Located in the heart of Indianapolis, we proudly serve the surrounding communities with a commitment to excellence, integrity, and personalized attention. At Senior Helpers Indianapolis, we understand the unique challenges that come with aging, and we strive to make every day easier and more enjoyable for our clients. Our wide range of services is designed to meet the varying needs of seniors, including assistance with daily living activities, companionship, specialized Alzheimer’s and dementia care, personal care, and respite care for family caregivers. Our team of professional, compassionate caregivers undergoes rigorous training and background checks, ensuring that every client receives the highest level of care and support. We take pride in developing customized care plans tailored to the specific needs, preferences, and schedules of each senior and their family. Whether it’s a few hours a week or 24/7 care, our flexible services provide seniors with the assistance they need while allowing them to age comfortably and safely in the familiar surroundings of their own homes. Specializing in memory care, Senior Helpers Indianapolis offers innovative programs for seniors dealing with Alzheimer’s and dementia. Our caregivers are trained in the unique Senior Gems® program, which uses a positive approach to focus on what individuals with memory loss can still do rather than what they cannot. This approach fosters confidence and engagement, helping seniors maintain their independence and quality of life. Beyond our outstanding caregiving services, we are committed to being an active and supportive member of the Indianapolis community. We collaborate with local healthcare providers, senior centers, and organizations to ensure a holistic approach to senior care. Our team is always available to answer questions, provide guidance, and support families through every step of their caregiving journey. Whether you are seeking care for a loved one or exploring options for your own future, Senior Helpers Indianapolis is here to help. With a reputation built on trust, compassion, and reliability, we are more than just a home care agency—we are a partner in making life better for seniors and their families. Let Senior Helpers Indianapolis provide the care you need and the peace of mind you deserve.",
+    youtubeurl: "https://www.youtube.com/watch?v=2w7OI6BGP7s",
+    youtubevideoid: "2w7OI6BGP7s",
+    youtubechannelurl: "https://www.youtube.com/@SeniorHelpersIndianapolis",
+    youtubeembed: "",
     rssfeedembed: "XXX INSERT SURGE RSS FEED https://rss.app/feeds/sZq8gk5UWvrrwbJC.xml",
     surgeimage: "XXX",
     youtuberelatedvideourl1: "XXX",
@@ -20,7 +20,9 @@ const data = {
     googlefolder: "XXX INSERT SURGE PUBLIC GOOGLE DRIVE FOLDER like https://drive.google.com/drive/folders/1byUcU6bhfjUZAQ7EHF88f4_0AtY3oLe6?usp=drive_link",
     spotify: "XXX INSERT SPOTIFY URL LIKE https://podcasters.spotify.com/pod/show/senior-helpers-indianapol",
     wiki: "XXX",
-    // AUTO INSERTED INFO FROM CLARA
+
+  
+     // AUTO INSERTED INFO FROM CLARA
     businessname: "Senior Helpers",
     fulladdress: "6845 Parkdale Place, Suite C Indianapolis, IN 46254",
     street: "6845 Parkdale Place, Suite C",
@@ -29,7 +31,6 @@ const data = {
     zip: "46254",
     latLong: "39.82603990, -86.28175260",
     gmbphone: "(317) 927-7700",
-    gmbmapembed: "<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12256.60259930974!2d-86.2817526!3d39.8260399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca993d82f82cf%3A0xd112964f24b6ced6!2sSenior%20Helpers!5e0!3m2!1sen!2sau!4v1728629680957!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>",
     gmbimageurl1: "https://lh3.googleusercontent.com/p/AF1QipMGjJr2rLEadzr2qsFtGhgmm4QBU0i3YN-aTTcA=s1360-w1360-h1020",
     gmblongurl: "https://www.google.it/maps/place/Senior+Helpers/@39.826044,-86.2843275,17z/data=!3m1!4b1!4m6!3m5!1s0x886ca993d82f82cf:0xd112964f24b6ced6!8m2!3d39.8260399!4d-86.2817526!16s%2Fg%2F1q67gw6dw?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D",
     websiteurl: "www.seniorhelpers.com/in/indianapolis/",
