@@ -1,7 +1,6 @@
 const data = {
     //CLIENT:TEMPLATE
     // MANUALLY INSERT SURGE INFO HERE
-    // keyword: "KEYWORD. Senior Helpers Indianapolis Home Care",
     pagetitle: "Senior Helpers Indianapolis Home Care", 
     targeturl: "https://sites.google.com/view/senior-helpers-indianapolis/home",
     metadescription: "Just change the name in this description to client name> Senior Helpers is a home care agency comitted to providing aged care and home health care to the elderly living in the Indianapolis",
